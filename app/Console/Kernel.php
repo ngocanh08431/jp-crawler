@@ -13,7 +13,8 @@ class Kernel extends ConsoleKernel
      * @var array
      */
     protected $commands = [
-        //
+        // add the crawl command to code
+        Commands\Crawl::class
     ];
 
     /**
