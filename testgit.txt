@@ -1,9 +1,7 @@
 Test git
 
 １
-３
 
-a
 5
 q
 x
