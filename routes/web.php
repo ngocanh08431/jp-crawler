@@ -14,4 +14,5 @@
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/crawl', 'CrawlController@crawl');
+Route::get('/crawl/{random}', ['uses' => 'CrawlController@crawl']);
+Route::get('/crawl/vocab/', ['uses' => 'CrawlController@crawl']);
